@@ -125,18 +125,18 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     padding: 20,
     width: "100%",
+    paddingTop: 50,
   },
   cardContainer: {
     borderBottomColor: "lightgrey",
     borderBottomWidth: 1,
     height: 50,
-    paddingVertical: 5,
     width: "100%",
     display: "flex",
     flexDirection: "row",
     justifyContent: "space-between",
     alignItems: "center",
-    marginTop: 10,
+    marginTop: 20,
   },
   title: {
     fontSize: 14,
@@ -146,6 +146,7 @@ const styles = StyleSheet.create({
   desc: {
     fontSize: 12,
     color: "grey",
+    marginBottom: 5,
   },
   w100: {
     width: "100%",
